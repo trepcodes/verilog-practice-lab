@@ -29,7 +29,7 @@ always @(posedge clk or posedge rst) begin
         end
 
         else begin
-            dice_value <= (random_state % 6) + 1; // advance the values 
+            dice_value <= (random_state % 6) + 1; // generate the pseudo-random sequence
         end
     end
 end

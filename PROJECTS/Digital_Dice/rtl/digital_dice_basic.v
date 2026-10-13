@@ -21,7 +21,7 @@ always @(posedge clk or posedge rst) begin
         end
 
         else begin
-            dice_value <= dice_value + 1'b1; // advabce the values 
+            dice_value <= dice_value + 1'b1; // advance the values 
         end
     end
 end
