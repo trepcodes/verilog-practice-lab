@@ -1,7 +1,6 @@
 `timescale 1ns/1ps
 
 module lfsr_tb;
-
     reg clk, rst;
     wire [7:0] random_state;
 
